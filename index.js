@@ -6,8 +6,7 @@ let num2 = 20;
 [num2, num1] = [num1, num2];
 
 console.log(num1); // 20
-console.log(num2);
-// 10
+console.log(num2); // 10
 
 // Operator - 1
 
@@ -40,7 +39,7 @@ twitter & followme("DevangTomar7");
 
 // Passing arguments as objects
 
-const createProduct = ({ name, description, price}) => {
+const createProduct = ({ name, description, price }) => {
     // Create the product
 }
 
@@ -105,12 +104,44 @@ console.log(total); // Result: [4, 5]
 
 // Conditional operator
 
-const hour = 5;if (hour < 18) {
+const hour = 5; if (hour < 18) {
     console.log('Good day');
-  } else {
+} else {
     console.log('Good evening');
-  }// Result: Good day
+}// Result: Good day
 
-  const hour = 5;
-hour < 18 ? console.log('Good day') : console.log('Good evening');
-// Result: Good day
+const hour = 5;
+hour < 18 ? console.log('Good day') : console.log('Good evening'); // Result: Good day
+
+// String on steriods
+
+const name = 'Charlie';
+const greeting = `Good day, ${name}.`;
+console.log(greeting); // "Good day, Charlie."
+
+// Convert a Number to a String
+
+const num = 1 + "";
+console.log(typeof num); // "string"
+console.log(num); // "1"
+
+// Convert a String to a Number
+
+const numStr = "84";
+const num = +numStr;
+console.log(typeof num); // "number"
+console.log(num); // 84
+
+// Split a String into an Array
+
+const str = "Test"
+const arr = [...str] // application of the spread operator ...
+// arr = ["T", "e", "s", "t"]
+
+// Mask numbers using slice and padStart
+
+const cardNumber = '89898908976656232';
+const last4Digit = cardNumber.slice(-4);
+const maskNumber = last4Digit.padStart(cardNumber.length, "*");
+
+console.log(maskNumber); // *********6232
