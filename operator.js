@@ -18,3 +18,5 @@ if (val === "123") {
     console.log(val);
     // it can be reached
 }
+
+
