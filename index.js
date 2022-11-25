@@ -1,4 +1,15 @@
+// For swaping
 
+let num1 = 10;
+let num2 = 20;
+
+[num2, num1] = [num1, num2];
+
+console.log(num1); // 20
+console.log(num2);
+// 10
+
+// Operator - 1
 
 0 == false; // true
 0 === false; // false
@@ -19,4 +30,10 @@ if (val === "123") {
     // it can be reached
 }
 
+// Operator - 2
 
+if (twitter) {
+    followme("DevangTomar7");
+}
+
+twitter & followme("DevangTomar7");
