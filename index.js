@@ -102,3 +102,15 @@ console.log(total); // Result: [2, 4, 6, 8, 10]
 let orders = [1, 2, 3, 4, 5];
 const total = orders.filter((item) => item > 3);
 console.log(total); // Result: [4, 5]
+
+// Conditional operator
+
+const hour = 5;if (hour < 18) {
+    console.log('Good day');
+  } else {
+    console.log('Good evening');
+  }// Result: Good day
+
+  const hour = 5;
+hour < 18 ? console.log('Good day') : console.log('Good evening');
+// Result: Good day
