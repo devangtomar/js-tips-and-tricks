@@ -89,3 +89,16 @@ const uniqueFruits = [...new Set(fruits)];
 console.log(uniqueNumbers); // [1, 2, 4, 5]
 console.log(uniqueFruits);  // ["apple", "pear", "banana", "cherry"]
 
+// Use reduce() map() and filter() instead of regular for loops
+
+let orders = [1, 2, 3, 4, 5];
+const total = orders.reduce((acc, cur) => acc + cur);
+console.log(total); // Result: 15
+
+let orders = [1, 2, 3, 4, 5];
+const total = orders.map((item) => item * 2);
+console.log(total); // Result: [2, 4, 6, 8, 10]
+
+let orders = [1, 2, 3, 4, 5];
+const total = orders.filter((item) => item > 3);
+console.log(total); // Result: [4, 5]
