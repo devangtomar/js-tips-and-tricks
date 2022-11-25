@@ -37,3 +37,43 @@ if (twitter) {
 }
 
 twitter & followme("DevangTomar7");
+
+// Passing arguments as objects
+
+const createProduct = ({ name, description, price}) => {
+    // Create the product
+}
+
+createProduct((
+    name: "Pizza",
+    description: "Hot, crispy and tasty!",
+    price: 10.99,
+));
+
+// format json output with spaces
+
+const profile = {
+    name: "Devang",
+    age: 26,
+    dateJoined: "07-07-2000",
+};
+
+JSON.stringify(profile, null, 2);
+
+// {
+//     name: "Devang",
+//     age: 26,
+//     dateJoined: "07-07-2000",
+// }
+
+// Spread operator
+
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+const person = {
+    name: "Devang",
+    active: false,
+};
+
+console.log([...numbers, 9, 10]) // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+console.log([...person, active: true]) // { name: "Devang", active: true }
+console.log([...person, age: 25]) // { name: "Devang", active: false, age: 25 }
