@@ -77,3 +77,15 @@ const person = {
 console.log([...numbers, 9, 10]) // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 console.log([...person, active: true]) // { name: "Devang", active: true }
 console.log([...person, age: 25]) // { name: "Devang", active: false, age: 25 }
+
+// Remove duplicates using Set
+
+const numbers = [1, 1, 2, 2, 4, 4, 4, 4, 5];
+const fruits = ["apple", "pear", "banana", "apple", "apple", "cherry"];
+
+const uniqueNumbers = [...new Set(numbers)];
+const uniqueFruits = [...new Set(fruits)];
+
+console.log(uniqueNumbers); // [1, 2, 4, 5]
+console.log(uniqueFruits);  // ["apple", "pear", "banana", "cherry"]
+
