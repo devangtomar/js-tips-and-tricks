@@ -1,6 +1,5 @@
 ![](./myMediaFolder/media/image1.jpeg)
 
-
 # **JavaScript Tips, Tricks, and Best Practices**
 
 JavaScript, along with HTML and CSS, is one of the three essential
@@ -11,7 +10,6 @@ a specific function.
 JavaScript can be found anywhere.
 
 ![](./myMediaFolder/media/image2.png)
-
 
 If you care about the code itself and how it's written, rather than just
 whether it works or not, you may say that you practice and value clean
@@ -25,7 +23,6 @@ self-explanatory, easy to understand by humans, and easy to change or
 extend.
 
 ![](./myMediaFolder/media/image3.jpeg)
-
 
 The focus of this post will be on **JavaScript**, *but the techniques
 can be extended to other programming languages as well.*
@@ -42,7 +39,6 @@ above example.
 
 ![](./myMediaFolder/media/image4.png)
 
-
 ## **2. Simple method for swaping two variables**
 
 Because it is concise and expressive, employ the destructuring
@@ -52,45 +48,40 @@ objects.
 
 ![](./myMediaFolder/media/image5.png)
 
-
 ## **3. Replace if true statements with &&**
 
 && operators are less commonly used, but will become more common in the
 future.
 
-**Bad **👎
+**Bad**👎
 
 ![](./myMediaFolder/media/image6.png)
-
 
 **Good 👍**
 
 ![](./myMediaFolder/media/image7.png)
 
-
 ## **4. Passing arguments as objects**
 
 ![](./myMediaFolder/media/image8.png)
 
-
 This method of presenting arguments has numerous advantages :
 
--   The order of the parameters is no longer important, allowing you to
+- The order of the parameters is no longer important, allowing you to
     > focus on delivering high-quality code rather than repeatedly
     > checking the function definition.
 
--   The IDE will focus on the specific argument that you are providing,
+- The IDE will focus on the specific argument that you are providing,
     > making auto-completion easier.
 
--   As function calls specify the value of each property, this method
+- As function calls specify the value of each property, this method
     > clearly communicates intent.
 
--   Large codebases will benefit greatly from the increased verbosity.
+- Large codebases will benefit greatly from the increased verbosity.
 
 ## **5. Format JSON output with spaces**
 
 ![](./myMediaFolder/media/image9.png)
-
 
 A simple yet powerful tool for exporting readable JSON by specifying the
 number of spaces to use for indentation in the third parameter.
@@ -103,7 +94,6 @@ output.
 ## **6. Use the spread operator to shallow copy objects (and arrays!)**
 
 ![](./myMediaFolder/media/image10.png)
-
 
 The spread syntax in JavaScript has made it easier than ever to expand
 objects or arrays and conduct copies.
@@ -120,7 +110,6 @@ merge manually.
 ## **7. Remove duplicates from arrays using Set**
 
 ![](./myMediaFolder/media/image11.png)
-
 
 A basic but very effective one-liner approach for deleting duplicates
 from arrays.
@@ -139,18 +128,15 @@ Sets can also be used to remove duplicates from complex object arrays.
 
 ![](./myMediaFolder/media/image12.png)
 
-
 **Use the map() method to create a new array with the results of calling
 a function for every array element.**
 
 ![](./myMediaFolder/media/image13.png)
 
-
 **Use the filter() method to create an array filled with all array
 elements that pass a test (provided as a function).**
 
 ![](./myMediaFolder/media/image14.png)
-
 
 ## **9. Conditional Operator**
 
@@ -163,11 +149,9 @@ For example, the following code :
 
 ![](./myMediaFolder/media/image15.png)
 
-
 Can be reduced to :
 
 ![](./myMediaFolder/media/image16.png)
-
 
 ## **10. Strings on Steroids**
 
@@ -175,31 +159,26 @@ Embed a variable in-between a string :
 
 ![](./myMediaFolder/media/image17.png)
 
-
 ## **11. Convert a Number to a String**
 
 ![](./myMediaFolder/media/image18.png)
-
 
 ## **12. Convert a String to a Number**
 
 ![](./myMediaFolder/media/image19.png)
 
-
 ## **13. Split a String into an Array**
 
 ![](./myMediaFolder/media/image20.png)
-
 
 ## **14. String to a number using the plus (+) operator**
 
 ![](./myMediaFolder/media/image21.png)
 
-
-The ***slice() ***method returns selected elements in an array, as a new
+The ***slice()***method returns selected elements in an array, as a new
 array. Negative numbers select from the end of the array.
 
-The ***padStart() ***method pads the current string with another string
+The ***padStart()***method pads the current string with another string
 until the resulting string reaches the given length. The padding is
 applied from the start of the current string.
 
@@ -224,13 +203,12 @@ readability.
 
 ![](./myMediaFolder/media/image22.jpeg)
 
-
 # **Let's connect and chat! Open to anything under the sun 🏖️🍹**
 
 **🐦 Twitter
 :** [[devangtomar7]{.underline}](https://twitter.com/devangtomar7)\
 🔗 **LinkedIn
-: **[[devangtomar]{.underline}](https://www.linkedin.com/in/devangtomar)\
+:**[[devangtomar]{.underline}](https://www.linkedin.com/in/devangtomar)\
 📚 **Stackoverflow
 :** [[devangtomar]{.underline}](https://stackoverflow.com/users/8198097/devangtomar)\
 🖼️ **Instagram
