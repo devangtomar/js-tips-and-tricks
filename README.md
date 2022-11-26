@@ -1,5 +1,5 @@
-![](./myMediaFolder/media/image1.jpeg){width="4.608333333333333in"
-height="4.616666666666666in"}
+![](./myMediaFolder/media/image1.jpeg)
+
 
 # **JavaScript Tips, Tricks, and Best Practices**
 
@@ -10,8 +10,8 @@ a specific function.
 
 JavaScript can be found anywhere.
 
-![](./myMediaFolder/media/image2.png){width="5.758333333333334in"
-height="5.875in"}
+![](./myMediaFolder/media/image2.png)
+
 
 If you care about the code itself and how it's written, rather than just
 whether it works or not, you may say that you practice and value clean
@@ -24,8 +24,8 @@ Based on this, clean code can be defined as code that is
 self-explanatory, easy to understand by humans, and easy to change or
 extend.
 
-![](./myMediaFolder/media/image3.jpeg){width="5.55in"
-height="4.166666666666667in"}
+![](./myMediaFolder/media/image3.jpeg)
+
 
 The focus of this post will be on **JavaScript**, *but the techniques
 can be extended to other programming languages as well.*
@@ -40,8 +40,8 @@ Use === instead of ==
 Loose Equality Operator can produce surprising results, as shown in the
 above example.
 
-![](./myMediaFolder/media/image4.png){width="5.625in"
-height="7.533333333333333in"}
+![](./myMediaFolder/media/image4.png)
+
 
 ## **2. Simple method for swaping two variables**
 
@@ -50,8 +50,8 @@ assignment strategy. Swapping is accomplished using a single line of
 code. It supports any data type, including numbers, texts, booleans, and
 objects.
 
-![](./myMediaFolder/media/image5.png){width="5.425in"
-height="5.133333333333334in"}
+![](./myMediaFolder/media/image5.png)
+
 
 ## **3. Replace if true statements with &&**
 
@@ -60,18 +60,18 @@ future.
 
 **Bad **👎
 
-![](./myMediaFolder/media/image6.png){width="5.425in"
-height="3.533333333333333in"}
+![](./myMediaFolder/media/image6.png)
+
 
 **Good 👍**
 
-![](./myMediaFolder/media/image7.png){width="5.758333333333334in"
-height="2.9166666666666665in"}
+![](./myMediaFolder/media/image7.png)
+
 
 ## **4. Passing arguments as objects**
 
-![](./myMediaFolder/media/image8.png){width="5.758333333333334in"
-height="5.625in"}
+![](./myMediaFolder/media/image8.png)
+
 
 This method of presenting arguments has numerous advantages :
 
@@ -89,8 +89,8 @@ This method of presenting arguments has numerous advantages :
 
 ## **5. Format JSON output with spaces**
 
-![](./myMediaFolder/media/image9.png){width="5.758333333333334in"
-height="6.108333333333333in"}
+![](./myMediaFolder/media/image9.png)
+
 
 A simple yet powerful tool for exporting readable JSON by specifying the
 number of spaces to use for indentation in the third parameter.
@@ -102,8 +102,8 @@ output.
 
 ## **6. Use the spread operator to shallow copy objects (and arrays!)**
 
-![](./myMediaFolder/media/image10.png){width="5.758333333333334in"
-height="3.05in"}
+![](./myMediaFolder/media/image10.png)
+
 
 The spread syntax in JavaScript has made it easier than ever to expand
 objects or arrays and conduct copies.
@@ -119,8 +119,8 @@ merge manually.
 
 ## **7. Remove duplicates from arrays using Set**
 
-![](./myMediaFolder/media/image11.png){width="5.758333333333334in"
-height="3.658333333333333in"}
+![](./myMediaFolder/media/image11.png)
+
 
 A basic but very effective one-liner approach for deleting duplicates
 from arrays.
@@ -137,20 +137,20 @@ Sets can also be used to remove duplicates from complex object arrays.
 
 **Use the reduce() method to reduce an array to a single value.**
 
-![](./myMediaFolder/media/image12.png){width="5.758333333333334in"
-height="2.558333333333333in"}
+![](./myMediaFolder/media/image12.png)
+
 
 **Use the map() method to create a new array with the results of calling
 a function for every array element.**
 
-![](./myMediaFolder/media/image13.png){width="5.758333333333334in"
-height="2.558333333333333in"}
+![](./myMediaFolder/media/image13.png)
+
 
 **Use the filter() method to create an array filled with all array
 elements that pass a test (provided as a function).**
 
-![](./myMediaFolder/media/image14.png){width="5.758333333333334in"
-height="2.558333333333333in"}
+![](./myMediaFolder/media/image14.png)
+
 
 ## **9. Conditional Operator**
 
@@ -161,40 +161,40 @@ condition ? (expression if true) : (expression if false)
 
 For example, the following code :
 
-![](./myMediaFolder/media/image15.png){width="5.758333333333334in"
-height="2.941666666666667in"}
+![](./myMediaFolder/media/image15.png)
+
 
 Can be reduced to :
 
-![](./myMediaFolder/media/image16.png){width="5.758333333333334in"
-height="1.6416666666666666in"}
+![](./myMediaFolder/media/image16.png)
+
 
 ## **10. Strings on Steroids**
 
 Embed a variable in-between a string :
 
-![](./myMediaFolder/media/image17.png){width="5.758333333333334in"
-height="3.216666666666667in"}
+![](./myMediaFolder/media/image17.png)
+
 
 ## **11. Convert a Number to a String**
 
-![](./myMediaFolder/media/image18.png){width="5.758333333333334in"
-height="3.7333333333333334in"}
+![](./myMediaFolder/media/image18.png)
+
 
 ## **12. Convert a String to a Number**
 
-![](./myMediaFolder/media/image19.png){width="5.758333333333334in"
-height="3.975in"}
+![](./myMediaFolder/media/image19.png)
+
 
 ## **13. Split a String into an Array**
 
-![](./myMediaFolder/media/image20.png){width="5.758333333333334in"
-height="3.6166666666666667in"}
+![](./myMediaFolder/media/image20.png)
+
 
 ## **14. String to a number using the plus (+) operator**
 
-![](./myMediaFolder/media/image21.png){width="5.758333333333334in"
-height="2.966666666666667in"}
+![](./myMediaFolder/media/image21.png)
+
 
 The ***slice() ***method returns selected elements in an array, as a new
 array. Negative numbers select from the end of the array.
@@ -222,8 +222,8 @@ Thank you for reading; these are some of the best JavaScript developer
 tips and best practises to follow for increased productivity and code
 readability.
 
-![](./myMediaFolder/media/image22.jpeg){width="4.158333333333333in"
-height="5.6in"}
+![](./myMediaFolder/media/image22.jpeg)
+
 
 # **Let's connect and chat! Open to anything under the sun 🏖️🍹**
 
